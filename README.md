@@ -5,4 +5,7 @@ sudo yum install epel-release
 ```
 sudo yum install xrdp tigervnc-server
 ```
-
+```
+sudo systemctl start xrdp.service
+sudo systemctl enable xrdp.service
+```
