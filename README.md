@@ -32,7 +32,7 @@ sudo rpm -ivh telnet-server-0.17-48.el6.x86_64.rpm
 ```
 ```
 sudo systemctl start xinetd
-sudo systemctl status telnet.socket 
+sudo systemctl start telnet.socket 
 ```
 ```
 firewall-cmd --add-service=telnet --zone=public --permanent
