@@ -27,6 +27,10 @@ yum update
 # V Remote Telnet
 Sau khi download telnet và xinetd chạy lần lược 2 lệnh này
 ```
+sudo rpm -ivh telnet-0.17-48.el6.x86_64.rpm
+sudo rpm -ivh telnet-server-0.17-48.el6.x86_64.rpm
+```
+```
 sudo systemctl start xinetd
 sudo systemctl status telnet.socket 
 ```
