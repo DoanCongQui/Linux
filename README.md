@@ -24,6 +24,11 @@ Sau đó chạy lệnh
 yum clear all
 yum update 
 ```
+# V Remote Telnet
+```
+firewall-cmd --add-service=telnet --zone=public --permanent
+firewall-cmd --reload
+```
 
 # VI Remote control Desktop
 ```
