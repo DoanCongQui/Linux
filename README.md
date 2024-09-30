@@ -25,6 +25,11 @@ yum clear all
 yum update 
 ```
 # V Remote Telnet
+Sau khi download telnet và xinetd chạy lần lược 2 lệnh này
+```
+sudo systemctl start xinetd
+sudo systemctl status telnet.socket 
+```
 ```
 firewall-cmd --add-service=telnet --zone=public --permanent
 firewall-cmd --reload
