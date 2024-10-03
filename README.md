@@ -24,6 +24,12 @@ Sau đó chạy lệnh
 yum clear all
 yum update 
 ```
+Nếu bị lỗi khi clean all
+```
+sudo systemctl stop packagekit
+rm -f /var/run/yum.pid
+```
+Sau khi chạy 2 lệnh này hãy tiếp tục `clean & update`
 # V Remote Telnet
 Sau khi download telnet và xinetd chạy lần lược 2 lệnh này
 ```
