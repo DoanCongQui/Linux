@@ -27,7 +27,7 @@ yum update
 Nếu bị lỗi khi clean all
 ```
 sudo systemctl stop packagekit
-rm -f /var/run/yum.pid
+sudo rm -f /var/run/yum.pid
 ```
 Sau khi chạy 2 lệnh này hãy tiếp tục `clean & update`
 # V Remote Telnet
